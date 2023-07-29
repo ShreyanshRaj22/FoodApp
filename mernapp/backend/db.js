@@ -10,6 +10,14 @@ const mongoDB = async () => {
         // using .find() and giving empty object we fetch all entries 
         //and then convert them to an array using toArray()
         let data = await fetched_data.find({}).toArray();
+        // food_items is a variable now that can be accessed from any file
+        //it is the array of all the food items in the database
+        global.food_items = data;
+        let foodCategory = await mongoose.connection.db.collection("foodCategory")
+        let catData = await foodCategory.find({}).toArray();
+        global.foodCategory = catData;
+
+
     } catch (error) {
         console.error('Error connecting to MongoDB: ', error);
     }
