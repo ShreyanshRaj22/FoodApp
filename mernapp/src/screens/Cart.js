@@ -15,7 +15,25 @@ export default function Cart() {
   //   console.log(index)
   //   dispatch({type:"REMOVE",index:index})
   // }
-
+  const handleCheckOut = async()=>{
+    let userEmail = localStorage.getItem("userEmail");
+    console.log(data,localStorage.getItem("userEmail"),new Date())
+    let response = await fetch("http://localhost:5000/api/orderData",{
+      method:'POST',
+      headers:{
+        'Content-Type':'application/json'
+      },
+      body:JSON.stringify({
+        order_data:data,
+        email:userEmail,
+        order_date:new Date().toDateString()
+      })
+    });
+    console.log("Order Response:", response)
+    if(response.status === 200){
+      dispatch({type:"DROP"})
+    }
+  }
 //   const handleCheckOut = async () => {
 //     let userEmail = localStorage.getItem("userEmail");
 //     // console.log(data,localStorage.getItem("userEmail"),new Date())
@@ -70,7 +88,7 @@ export default function Cart() {
         </table>
         <div><h1 className='fs-2'>Total Price: {totalPrice}/-</h1></div>
         <div>
-          <button className='btn bg-success mt-5 '  > Check Out </button> 
+          <button className='btn bg-success mt-5 ' onClick={handleCheckOut}  > Check Out </button> 
           {/* onClick={handleCheckOut} */}
         </div>
       </div>
