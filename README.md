@@ -1,7 +1,7 @@
 
 # Food Delivery App
 
-This is a basic MERN stack project with dedicated collections for food items, users, history of orders along with relatively common features like add to cart, search bar, checkout.
+This is a MERN stack project with dedicated collections for food items, users, history of orders along with relatively common features like add to cart, search bar, checkout.
 
 
 ## Front-end
