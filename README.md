@@ -33,5 +33,10 @@ This is a MERN stack project with dedicated collections for food items, users, h
 ## Screenshots
 
 ![App Screenshot](https://github.com/ShreyanshRaj22/FoodApp/blob/master/ScreenShots/Screenshot%202023-07-30%20115305.png)
+![App Screenshot](https://github.com/ShreyanshRaj22/FoodApp/blob/master/ScreenShots/Screenshot%202023-07-30%20115334.png)
+![App Screenshot](https://github.com/ShreyanshRaj22/FoodApp/blob/master/ScreenShots/Screenshot%202023-07-30%20115351.png)
+![App Screenshot](https://github.com/ShreyanshRaj22/FoodApp/blob/master/ScreenShots/Screenshot%202023-07-30%20183236.png)
+![App Screenshot](https://github.com/ShreyanshRaj22/FoodApp/blob/master/ScreenShots/Screenshot%202023-07-30%20183301.png)
+
 
 
