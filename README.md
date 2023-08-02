@@ -30,4 +30,8 @@ This is a MERN stack project with dedicated collections for food items, users, h
 
 - JWT Token saved on local storage for session maintainence
 
+## Screenshots
+
+![App Screenshot](https://github.com/ShreyanshRaj22/FoodApp/blob/master/ScreenShots/Screenshot%202023-07-30%20115305.png)
+
 
