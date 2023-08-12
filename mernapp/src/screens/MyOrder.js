@@ -4,7 +4,7 @@ import Footer from '../components/Footer'
 export default function MyOrder() {
   const [orderData,setOrderData] = useState("");
   const fetchMyOrder = async()=>{
-    await fetch("https://server4-3jas.onrender.com",{
+    await fetch("https://api.render.com/deploy/srv-cjbkkqndb61s739meog0?key=0fciHfeTcbg",{
         method:'POST',
         headers: {
             'Content-Type':'application/json'
