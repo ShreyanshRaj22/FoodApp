@@ -4,7 +4,7 @@ import Footer from '../components/Footer'
 export default function MyOrder() {
   const [orderData,setOrderData] = useState("");
   const fetchMyOrder = async()=>{
-    await fetch("https://server-six-ivory.vercel.app/",{
+    await fetch("https://server4-3jas.onrender.com/",{
         method:'POST',
         headers: {
             'Content-Type':'application/json'

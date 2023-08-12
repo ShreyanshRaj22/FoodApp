@@ -11,7 +11,7 @@ export default function Signup() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const response = await fetch("https://server-six-ivory.vercel.app/", {
+    const response = await fetch("https://server4-3jas.onrender.com/", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
