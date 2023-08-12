@@ -4,7 +4,7 @@ import Footer from '../components/Footer'
 export default function MyOrder() {
   const [orderData,setOrderData] = useState("");
   const fetchMyOrder = async()=>{
-    await fetch("http://localhost:5000/api/myOrderData",{
+    await fetch("https://server-six-ivory.vercel.app/",{
         method:'POST',
         headers: {
             'Content-Type':'application/json'
