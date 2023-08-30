@@ -18,7 +18,7 @@ export default function Cart() {
   const handleCheckOut = async()=>{
     let userEmail = localStorage.getItem("userEmail");
     console.log(data,localStorage.getItem("userEmail"),new Date())
-    let response = await fetch("https://server4-3jas.onrender.com",{
+    let response = await fetch("https://food-app-backend-6jgw.vercel.app/",{
       method:'POST',
       headers:{
         'Content-Type':'application/json'

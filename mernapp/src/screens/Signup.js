@@ -11,7 +11,7 @@ export default function Signup() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const response = await fetch("https://server4-3jas.onrender.com", {
+    const response = await fetch("https://food-app-backend-6jgw.vercel.app/", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

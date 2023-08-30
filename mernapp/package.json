@@ -15,7 +15,7 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
-  "proxy": "https://server4-3jas.onrender.com",
+  "proxy": "https://food-app-backend-6jgw.vercel.app/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
