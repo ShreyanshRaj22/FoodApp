@@ -9,7 +9,7 @@ export default function Login() {
 let navigate = useNavigate();
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const response = await fetch("https://food-app-backend-rho.vercel.app", {
+    const response = await fetch("https://food-app-backend-rho.vercel.app/", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
