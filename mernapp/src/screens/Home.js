@@ -10,7 +10,7 @@ export default function Home() {
   const [foodItem, setFoodItem] = useState([]);
 
   const loadData = async () => {
-    let response = await fetch("https://food-app-backend-rho.vercel.app/api/DisplayData/foodData", {
+    let response = await fetch("https://food-app-backend-rho.vercel.app/api/foodData", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
