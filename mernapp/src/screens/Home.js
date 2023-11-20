@@ -52,7 +52,7 @@ const [foodItem, setFoodItem] = useState([]);
                 <div className="row mb-3" key={data._id}>
                   <div className="fs-3 m-3">{data.CategoryName}</div>
                   <hr />
-                  {foodItem.length !== 0 ? (
+                  {foodItem?.length !== 0 ? (
                     foodItem
                       .filter(
                         (item) =>
