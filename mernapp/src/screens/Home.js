@@ -46,7 +46,7 @@ const [foodItem, setFoodItem] = useState([]);
         </div>
       </div>
       <div className="container">
-        {foodCat.length !== 0
+        {foodCat?.length !== 0
           ? foodCat.map((data) => {
               return (
                 <div className="row mb-3" key={data._id}>
