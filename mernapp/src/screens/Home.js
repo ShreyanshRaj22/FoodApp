@@ -6,7 +6,7 @@ import Card from "../components/Card";
 export default function Home() {
   const [search, setSearch] = useState("");
   const [foodCat, setFoodCat] = useState([]);
-  const [foodItem, setFoodItem] = useState([]);
+const [foodItem, setFoodItem] = useState([]);
 
   const loadData = async () => {
     try {
