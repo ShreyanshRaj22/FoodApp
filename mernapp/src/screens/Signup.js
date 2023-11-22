@@ -11,7 +11,7 @@ export default function Signup() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const response = await fetch("https://food-app-backend-rho.vercel.app/createuser", {
+    const response = await fetch("https://food-app-backend-rho.vercel.app/api/createuser", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
