@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link, navigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 export default function Signup() {
   const [credentials, setcredentials] = useState({
@@ -8,6 +8,7 @@ export default function Signup() {
     password: "",
     geolocation: "",
   });
+  let navigate = useNavigate();
 
   const handleSubmit = async (e) => {
     e.preventDefault();
